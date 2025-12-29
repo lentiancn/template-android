@@ -28,3 +28,17 @@ enum class MyEnum(
     ITEM3("item3-value1", "item3-value2")
 }
 ```
+
+### 类型判断
+
+```kotlin
+// 是
+if (obj is String) {
+    ...
+}
+
+// 否
+if (obj !is String) {
+    ...
+}
+```

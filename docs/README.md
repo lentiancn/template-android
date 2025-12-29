@@ -2,6 +2,20 @@
 
 ## kotlin 指南
 
+
+### 变量
+
+```kotlin
+// 可变变量 (有 get/set 方法)
+var a: Int = 1
+
+// 不可变变量 (仅有 get 方法)
+val b: Int = 1
+
+// 常量 (必须直接赋值)
+const val C: Int = 1
+```
+
 ### 定义枚举
 
 ```kotlin
